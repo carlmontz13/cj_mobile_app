@@ -18,8 +18,8 @@ void main() async {
   
   // Initialize Supabase
   await Supabase.initialize(
-    url: 'https://ovidvymtrzfkxdtlemix.supabase.co', // Replace with your Supabase URL
-    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im92aWR2eW10cnpma3hkdGxlbWl4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU5NTEwODcsImV4cCI6MjA3MTUyNzA4N30.Gj6moKXDEofdY1RM1-TlEllmeSbGcBddBlYO58vIbVA', // Replace with your Supabase anon key
+    url: 'https://sknysmdgroapujgaszoy.supabase.co', // Replace with your Supabase URL
+    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNrbnlzbWRncm9hcHVqZ2Fzem95Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwMDkwMTgsImV4cCI6MjA3MzU4NTAxOH0.hMwisjqVaJkTY5RGhW5p95RF07Msi9HQlwr7q4hl0Nc', // Replace with your Supabase anon key
   );
   
   // Check if we need to clear cache on app start (for debugging)
